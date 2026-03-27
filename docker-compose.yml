@@ -67,6 +67,7 @@ services:
       - ./volumes/uv-cache:/root/.cache/uv
       - /tmp/models/:/models
       - ./volumes/tts-logs:/tmp/unmute_logs
+      - ./voices:/voices
     deploy:
       resources:
         reservations:
