@@ -4,8 +4,8 @@
     type: smalltalk
     language: en  # 可选，如果是英语
   source:
-    source_type: file
-    path_on_server: /voices/prompt.wav
+    source_type: voice_state
+    path_on_server: /app/embeddings/voice_state.pt
     description: This is my custom voice.
 - name: Watercooler
   good: true

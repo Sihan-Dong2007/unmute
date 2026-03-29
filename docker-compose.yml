@@ -68,6 +68,7 @@ services:
       - /tmp/models/:/models
       - ./volumes/tts-logs:/tmp/unmute_logs
       - ./voices:/voices
+      - /home/remote/unmute/embeddings:/app/embeddings
     deploy:
       resources:
         reservations:
