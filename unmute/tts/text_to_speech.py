@@ -149,7 +149,7 @@ class TextToSpeech(ServiceWithStartup):
         self.received_samples = 0
         # Number of samples that we passed on after waiting for the correct time
         self.received_samples_yielded = 0
-
+        #自定义声音在这里
         self.voice = voice
         self.query = TtsStreamingQuery(
             voice=self.voice
